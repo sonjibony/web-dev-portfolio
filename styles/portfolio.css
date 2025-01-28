@@ -28,6 +28,14 @@ border-radius: 5px;
 border-style: none;
 }
 
+/*header style */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+
+
 /*nav style */
 nav{
     display: flex;
@@ -38,19 +46,39 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
-
 }
 nav ul{
     display: flex;
     align-items: center;
 }
-
 nav ul li {
     list-style: none;
     margin-right: 50px;
 }
-
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+/*banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greet{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-des{
+    font-size: 18px;
+}
+.banner-pp{
+    width: 580px;
 }
